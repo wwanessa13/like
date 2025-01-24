@@ -8,5 +8,5 @@ function(x){
   print(paste0(x, "é legal"))
 }
 
-exe <- plumb('/exemplo_api.R')
+exe <- plumber::plumb("exemplo_api.R")
 exe$run(host = '0.0.0.0', port = 8000)
