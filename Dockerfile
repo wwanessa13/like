@@ -1,4 +1,4 @@
-FROM rstudio/plumber:latest
+FROM rstudio/plumber
 
 COPY exemplo_api.R /exemplo_api.R
 
